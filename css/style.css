@@ -28,7 +28,8 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 200
+    z-index: 200; 
+    transition: 0.5s;
 }
 
 .header {
@@ -39,6 +40,11 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 15px 20px 5px;
+}
+
+/* 아래로 스크롤 했을 때 추가되는 선택자 */
+.nav-up {
+    transform: translateY(-100%);
 }
 
 .logo {
@@ -673,5 +679,5 @@ td {
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
