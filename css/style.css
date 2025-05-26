@@ -24,7 +24,7 @@ a {
 
 #header {
     width: 100%;
-    background-color:#fff;
+    background-color: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -33,33 +33,32 @@ a {
 
 .header {
     position: relative;
-    min-width: 1320px;
+    width: 1320px;
     margin: auto;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 5px;
 }
 
 .logo {
     display: block;
 }
 
-.nav {
-    max-width: 1320px;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px auto 10px;
+.logo img {
+    width: 110px;
 }
 
 .menu {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     margin: auto;
-    padding-left: 40px;
     width: 100%;
 }
 
 .menu>li>a {
     display: block;
-    padding: 0 70px;
+    padding: 0 90px;
 }
 
 .menu a {
@@ -76,18 +75,16 @@ a {
 .right {
     display: flex;
     justify-content: flex-end;
-    align-items: first baseline;
+    align-items: center;
     margin: auto;
     padding-bottom: 20px;
-    gap: 30px;
-
+    gap: 20px;
+    padding-right: 90px;
 }
 
 .right img {
     display: block;
 }
-
-
 
 .right li a:hover {
     filter: opacity(70%);
@@ -148,8 +145,7 @@ a {
 .mySwiper {
     width: 100%;
     height: 740px;
-    margin-top: 123px;
-
+    margin-top: 96px;
 }
 
 .mySwiper .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
@@ -301,7 +297,7 @@ h5 {
 .new .textbox {
     width: 1320px;
     padding-top: 140px;
-    padding-left: 295px;
+    margin: auto;
 }
 
 .new .textbox h4 {
@@ -541,10 +537,17 @@ video {
     padding-top: 75px;
 }
 
+.origin a {
+    display: block;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
 .origin img {
     display: block;
     width: 100%;
     filter: opacity(80%);
+    transition: 0.3s;
 
 }
 
@@ -552,8 +555,9 @@ video {
     width: 24.5%;
 }
 
-.origin img:hover {
+.origin li:hover img {
     filter: opacity(100%);
+    transform: scale(1.2);
 }
 
 .review {
@@ -666,4 +670,8 @@ td {
 .mark {
     width: 74px;
     height: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
