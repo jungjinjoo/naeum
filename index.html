@@ -20,34 +20,35 @@
 </head>
 
 <body>
- <div id="header">
-  <div class="header">
-        <div class="nav">
-      <a href="#" class="logo"><img src="./images/header/logo.png" alt=""></a>
+  <div id="header">
+    <div class="header">
+      <a href="#" class="logo"><img src="./images/header/logo.png" alt="탑로고이미지"></a>
+      <div class="nav">
+        <ul class="right">
+          <li><a href="#"><img src="./images/header/LOGIN.png" alt=""></a></li>
+          <li><a href="#"><img src="./images/header/search.png" alt=""></a></li>
+          <li><a href="#"><img src="./images/header/local_mall.png" alt=""></a></li>
+        </ul>
         <ul class="menu">
-        <li><a href="#">브랜드스토리</a>
-        </li>
-        <li><a href="#">제품</a>
-        </li>
-        <li><a href="#">이벤트</a>
+          <li><a href="#story">브랜드스토리</a>
+          </li>
+          <li><a href="#product">제품</a>
+          </li>
+          <li><a href="#event">이벤트</a>
 
-        </li>
-        <li><a href="#">향기</a>
+          </li>
+          <li><a href="#scent">향기</a>
 
-        </li>
-        <li><a href="#">리뷰</a>
+          </li>
+          <li><a href="#review">리뷰</a>
 
-        </li>
-      </ul>
-      <ul class="right">
-        <li><a href="#"><img src="./images/header/LOGIN.png" alt=""></a></li>
-        <li><a href="#"><img src="./images/header/search.png" alt=""></a></li>
-        <li><a href="#"><img src="./images/header/local_mall.png" alt=""></a></li>
-      </ul>
+          </li>
+        </ul>
+
+      </div>
     </div>
   </div>
-  </div>
-  
+
   <!-- Swiper 메인 돌아가는 배너 -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
@@ -98,15 +99,12 @@
       </div>
     </div>
 
-
-
     <div class="swiper-pagination"></div>
   </div>
 
   <div class="slide">
-
-
   </div>
+  <div id="story"></div>
   <div class="brandstory">
     <h3 class="title">BRAND STORY</h3>
     <img src="./images/brandstory/Layer_1.png" alt="로고이미지">
@@ -150,6 +148,7 @@
       </p>
     </li>
   </ul>
+  <div id="product"></div>
 
 
 
@@ -258,11 +257,11 @@
           <br>불필요한 플라스틱을 줄이는 친환경 리필 형태
         </p>
       </div>
-
       <img src="./images/mdpick/md2.jpg" alt="md2">
     </div>
 
   </div>
+  <div id="event"></div>
   <!-- class에 swiper부분은 수정 금지!!! -->
   <h3 class="title">EVENT</h3>
   <div class="swiper event">
@@ -293,13 +292,13 @@
       </div>
     </div>
   </div>
-
+  <div id="scent"></div>
   <p class="scent">NAEUM’s SCENT</p>
   <p class="scent1">"햇살처럼 따뜻하게, 마음을 감싸는 카모마일 향" </p>
   <p class="scent2">탑 노트 : 가볍고 달콤한 허브 향&nbsp; / &nbsp;미들 노트 : 부드럽고 크리미한 플로럴&nbsp; / &nbsp;베이스 노트 : 따뜻한 머스크 또는 우디함
   </p>
   <div class="scentvideo">
-    <video src="./video/Chamomile.mp4" width="1320px" autoplay loop muted playsinline> </video>
+    <video src="./video/Chamomile.mp4" width="1320" autoplay loop muted playsinline> </video>
 
     <ul class="Chamomile">
       <li data-aos="fade-up">
@@ -321,7 +320,7 @@
 
   <ul class="origin">
     <li>
-      <a href="#"><img src="./images/scent/origin1.png" alt="티트리"></a>
+      <a href="#none"><img src="./images/scent/origin1.png" alt="티트리"></a>
       <p class="origintitle">TEA TREE</p>
       <p class="origintext">티트리의 강렬하면서 달콤한 향은 활력과 생기를 줍니다.
         <br>외부의 스트레스로부터 마음이 괴로워 심신이 지칠 때 힘을 주어
@@ -330,7 +329,7 @@
     </li>
 
     <li>
-      <a href="#"><img src="./images/scent/origin2.png" alt="로즈마리"></a>
+      <a href="#none"><img src="./images/scent/origin2.png" alt="로즈마리"></a>
       <p class="origintitle">ROSEMARY</p>
       <p class="origintext">로즈마리는 에너지를 끌어올려주고, 순환을 증진시키는 힘을 갖고 있어
         <br>피부와 두피 케어를 위해 꾸준히 선택 되어왔습니다. 로즈마리의 짙은 향기는
@@ -339,7 +338,7 @@
     </li>
 
     <li>
-      <a href="#"><img src="./images/scent/origin3.png" alt="유칼립투스"></a>
+      <a href="#none"><img src="./images/scent/origin3.png" alt="유칼립투스"></a>
       <p class="origintitle">EUCALYPTUS</p>
       <p class="origintext">시원한 향기는 답답하게 닫힌 마음을 통쾌하게 씻어 내려주어
         <br>내적인 여유 공간을 만들어줍니다. 새로운 날개를 펴듯 움츠러든 몸과
@@ -348,7 +347,7 @@
     </li>
 
     <li>
-      <a href="#"><img src="./images/scent/origin4.png" alt="바질"></a>
+      <a href="#none"><img src="./images/scent/origin4.png" alt="바질"></a>
       <p class="origintitle">BASIL</p>
       <p class="origintext">역동적이고 활기찬 느낌의 바질 에센셜오일의 톡 쏘는 향기는 머리를
         <br>맑게 하여 집중력을 높여주고, 현실에 안주하고
@@ -356,8 +355,8 @@
       </p>
     </li>
 
-    <li>
-      <a href="#"> <img src="./images/scent/origin5.png" alt="그레이프프룻" class="low"></a>
+    <li class="low">
+      <a href="#none"> <img src="./images/scent/origin5.png" alt="그레이프프룻"></a>
       <p class="origintitle">GRAPEFRUIT</p>
       <p class="origintext">스윗한 시트러스 향기가 긍정적인 행복감을 느끼게 만들어 새롭게
         <br>시작할 수 있는 활기찬 에너지를 선사합니다. 미묘하고 복잡한 감정을
@@ -366,16 +365,16 @@
     </li>
 
 
-    <li>
-      <a href="#"><img src="./images/scent/origin6.png" alt="버가못" class="low"></a>
+    <li class="low">
+      <a href="#none"><img src="./images/scent/origin6.png" alt="버가못"></a>
       <p class="origintitle">BERGAMOT</p>
       <p class="origintext">신선하고 프룻티한 버가못 에센셜오일의 향기는 화창하고 따뜻한 기질을
         <br>가지고 있어 자신감을 되찾고 기쁨을 불러 일으켜 마음을 온화하게 해줍니다.
       </p>
     </li>
 
-    <li>
-      <a href="#"><img src="./images/scent/origin7.png" alt="차모마일 저먼" class="low"></a>
+    <li class="low">
+      <a href="#none"><img src="./images/scent/origin7.png" alt="차모마일 저먼"></a>
       <p class="origintitle">CHAMOMILE GERMAN</p>
       <p class="origintext">캐모마일 저먼의 향은 상쾌하고 부드럽게 어우러진 조화로, 마치 햇살 가득한 정원을
         <br>거닐며 신선한 공기를 마시는 듯한 느낌을 전해줍니다. 그 향기는 마음을 차분하게
@@ -383,8 +382,8 @@
       </p>
     </li>
 
-    <li>
-      <a href="#"><img src="./images/scent/origin8.png" alt="주니퍼 베리" class="low"></a>
+    <li class="low">
+      <a href="#none"><img src="./images/scent/origin8.png" alt="주니퍼 베리"></a>
       <p class="origintitle">JUNIPER BERRY</p>
       <p class="origintext">나뭇잎의 푸르른 신선함이 전해지는 코니퍼노트와 베리 열매 특유의 스윗함이
         <br>더해져 정신없이 분산된 에너지를 하나로 모아주고 기분을 상쾌하게 만들어 줍니다.
@@ -392,40 +391,40 @@
       </p>
     </li>
   </ul>
-
+  <div id="review"></div>
   <!-- class에 swiper부분은 수정 금지!!! -->
   <h3 class="title">REVIEW</h3>
   <div class="swiper review">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <a href="#"><img src="./images/review/리뷰1.png" alt="이미지1">
+        <a href="#none"><img src="./images/review/리뷰1.png" alt="이미지1">
 
         </a>
       </div>
       <div class="swiper-slide">
-        <a href="#"><img src="./images/review/리뷰6.png" alt="이미지1">
+        <a href="#none"><img src="./images/review/리뷰6.png" alt="이미지1">
 
         </a>
       </div>
       <div class="swiper-slide">
-        <a href="#"><img src="./images/review/리뷰2.png" alt="이미지1">
+        <a href="#none"><img src="./images/review/리뷰2.png" alt="이미지1">
 
         </a>
       </div>
       <div class="swiper-slide">
-        <a href="#"><img src="./images/review/리뷰3.png" alt="이미지1">
+        <a href="#none"><img src="./images/review/리뷰3.png" alt="이미지1">
 
         </a>
       </div>.
 
       <div class="swiper-slide">
-        <a href="#"><img src="./images/review/리뷰4.png" alt="이미지1">
+        <a href="#none"><img src="./images/review/리뷰4.png" alt="이미지1">
 
         </a>
       </div>
 
       <div class="swiper-slide">
-        <a href="#"><img src="./images/review/리뷰5.png" alt="이미지1">
+        <a href="#none"><img src="./images/review/리뷰5.png" alt="이미지1">
 
         </a>
       </div>
@@ -457,10 +456,10 @@
     <div class="foot1">
       <img src="./images/foot/foot_logo.png" alt="풋로고" class="foot_logo">
       <ul class="foot_ul_right">
-        <li><a href="#"><img src="./images/foot/instagram.png" alt="인스타" class="sns"></a></li>
-        <li><a href="#"><img src="./images/foot/facebook.png" alt="페이스북" class="sns"></a></li>
-        <li><a href="#"><img src="./images/foot/youtube.png" alt="유투브" class="sns"></a></li>
-        <li><a href="#"><img src="./images/foot/twitter.png" alt="트위터" class="sns"></a></li>
+        <li><a href="https://www.instagram.com/"><img src="./images/foot/instagram.png" alt="인스타" class="sns"></a></li>
+        <li><a href="https://www.facebook.com/"><img src="./images/foot/facebook.png" alt="페이스북" class="sns"></a></li>
+        <li><a href="https://www.youtube.com/"><img src="./images/foot/youtube.png" alt="유투브" class="sns"></a></li>
+        <li><a href="https://x.com/"><img src="./images/foot/twitter.png" alt="트위터" class="sns"></a></li>
       </ul>
 
     </div>
@@ -483,113 +482,17 @@
       <br>support_kr@naeum.com &nbsp;(주문/배송/쇼핑 문의)
       <br><br>© NAEUM CORPORATION. ALL RIGHTS RESERVED.
     </p>
-
-
   </div>
-
 
   <div class="swiper-pagination"></div>
   <div class="scroll-content"></div>
 
-
-
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
   <!-- AOS JS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
   <script src="./script/slide.js"></script>
 
-
-  <!-- 내 JS -->
-  <script>
-    AOS.init({
-      duration: 1500,
-      offset: 300,
-      easing: 'ease-out-back',
-    });
-  </script>
-
-
-  <!-- Initialize Swiper -->
-  <!-- 메인배너부분 -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      speed: 1000,
-      spaceBetween: 0,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-
-
-    });
-  </script>
-
-
-  <!-- 뉴 아이템부분 -->
-  <script>
-    var swiper = new Swiper(".new", {
-      speed: 1000,
-      effect: "fade",
-      autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
-      },
-      mousewheel: true,
-      keyboard: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
-
-  <!-- 이벤트부분 -->
-  <script>
-    var swiper = new Swiper(".event", {
-      slidesPerView: 2,
-      spaceBetween: 10,
-      autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      loop: true,
-    });
-  </script>
-
-  <!-- 리뷰부분 -->
-  <script>
-    var swiper = new Swiper(".review", {
-      slidesPerView: 5,
-      spaceBetween: 10,
-      autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      loop: true,
-    });
-  </script>
-
-</body>
 
 </html>
