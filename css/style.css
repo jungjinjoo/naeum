@@ -520,7 +520,6 @@ video {
     flex-wrap: wrap;
     width: 100%;
     margin: 40px auto 0;
-
 }
 
 .origintitle {
@@ -558,7 +557,7 @@ video {
 }
 
 .origin li {
-    width: 24.5%;
+    width: 24%;
 }
 
 .origin li:hover img {
