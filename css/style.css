@@ -567,6 +567,10 @@ video {
     transform: scale(1.2);
 }
 
+.origin li:hove .origintitle{
+    font-weight: 600;
+}
+
 .review {
     width: 100%;
     margin: auto;
