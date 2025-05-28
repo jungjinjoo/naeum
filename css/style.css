@@ -567,7 +567,7 @@ video {
     transform: scale(1.2);
 }
 
-.origin li:hove .origintitle{
+.origin li:hover .origintitle{
     font-weight: 600;
 }
 
