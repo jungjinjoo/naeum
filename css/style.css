@@ -97,16 +97,17 @@ a {
 }
 
 .bg1 {
-    background: url(../images/header/main_allinone.png)no-repeat center top /cover;
+    background: url(../images/header/main_allinone.png)no-repeat center center /cover;
 }
 
 .bg2 {
-    background: url(../images/header/main_mist.png) no-repeat center top /cover;
+    background: url(../images/header/main_mist.png) no-repeat center center /cover;
 }
 
 .bg3 {
-    background: url(../images/header/main_suncraem.png) no-repeat center top /cover;
+    background: url(../images/header/main_suncraem.png) no-repeat center center /cover;
 }
+
 
 .mySwiper .textbox {
     width: 1320px;
