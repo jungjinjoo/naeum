@@ -39,7 +39,7 @@ a {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 15px 20px 5px;
+    padding: 15px 20px 10px;
 }
 
 /* 아래로 스크롤 했을 때 추가되는 선택자 */
@@ -57,7 +57,7 @@ a {
 
 .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: auto;
     width: 100%;
 }
@@ -136,7 +136,7 @@ a {
     position: absolute;
     width: 100%;
     height: 1px;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     bottom: -2px;
     z-index: -1;
     transform: scaleX(1);
@@ -151,7 +151,7 @@ a {
 .mySwiper {
     width: 100%;
     height: 740px;
-    margin-top: 96px;
+    margin-top: 101px;
 }
 
 .mySwiper .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
@@ -493,7 +493,7 @@ video {
 .Chamomile {
     position: absolute;
     top: 31%;
-    left: 33%;
+    left: 31%;
 }
 
 .text1 {
