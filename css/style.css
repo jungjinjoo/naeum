@@ -101,11 +101,11 @@ a {
 }
 
 .bg2 {
-    background: url(../images/header/main_mist.png) no-repeat left top /cover;
+    background: url(../images/header/main_mist.png) no-repeat center top /cover;
 }
 
 .bg3 {
-    background: url(../images/header/main_suncraem.png) no-repeat left top /cover;
+    background: url(../images/header/main_suncraem.png) no-repeat center top /cover;
 }
 
 .mySwiper .textbox {
