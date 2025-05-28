@@ -536,6 +536,7 @@ video {
     font-size: 14px;
     font-weight: 400;
     text-align: left;
+    padding: 0 25px 0;
     letter-spacing: -1px;
 }
 
