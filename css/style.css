@@ -39,7 +39,7 @@ a {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 15px 0px 10px 20px;
+    padding: 15px 0px 10px;
 }
 
 /* 아래로 스크롤 했을 때 추가되는 선택자 */
@@ -57,14 +57,14 @@ a {
 
 .menu {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin: auto;
     width: 100%;
 }
 
 .menu>li>a {
     display: block;
-    padding-left: 190px;
+    padding-left: 140px;
 }
 
 .menu a {
@@ -83,8 +83,8 @@ a {
     justify-content: flex-end;
     align-items: center;
     margin: auto;
-    padding-bottom: 20px;
-    gap: 20px;
+    padding-left: 80px;
+    gap: 15px;
 
 }
 
@@ -568,7 +568,7 @@ video {
     transform: scale(1.2);
 }
 
-.origin li:hover .origintitle{
+.origin li:hover .origintitle {
     font-weight: 600;
 }
 
