@@ -96,11 +96,17 @@ var swiper = new Swiper(".event", {
     delay: 2000,
     disableOnInteraction: false,
   },
-  pagination: {
-    el: ".swiper-pagination",
+  
+  pagination: {// 블릿 버튼
+    el: ".eventbox .swiper-pagination",
     clickable: true,
   },
   loop: true,
+  navigation: {//화살표 버튼
+    nextEl: '.eventbox .swiper-button-next',
+    prevEl: '.eventbox .swiper-button-prev',
+  },
+
 });
 
 // 리뷰부분
