@@ -652,6 +652,9 @@ td {
     height: 58px;
 }
 
+.foot_logo:hover{
+       opacity: 70%;}
+
 .foot_ul_right {
     display: flex;
     justify-content: right;
