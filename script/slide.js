@@ -54,7 +54,7 @@ function hasScrolled() {
 
 // 메인배너부분
 var swiper = new Swiper(".mySwiper", {
-  speed: 1000,
+  speed: 1500,
   spaceBetween: 0,
   pagination: {
     el: ".swiper-pagination",
