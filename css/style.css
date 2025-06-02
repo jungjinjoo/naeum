@@ -710,6 +710,20 @@ td {
     height: 50px;
 }
 
+
+.topbtn {
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+    width: 45px;
+    animation: top 0.5s infinite alternate linear;
+}
+
+.topbtn:hover{
+    filter: opacity(50%);
+}
+
+
 html {
     scroll-behavior: smooth;
 }
