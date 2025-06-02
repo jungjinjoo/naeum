@@ -710,11 +710,15 @@ td {
     height: 50px;
 }
 
+@keyframes top{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-30px)}
+}
 
 .topbtn {
     position: fixed;
     right: 50px;
-    bottom: 40px;
+    bottom: 30px;
     width: 45px;
     animation: top 0.5s infinite alternate linear;
 }
