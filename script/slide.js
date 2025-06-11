@@ -118,7 +118,7 @@ var swiper = new Swiper(".review", {
     delay: 0,
     disableOnInteraction: false,
   },
-  speed: 2000,
+  speed: 3500,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
